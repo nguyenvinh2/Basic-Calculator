@@ -29,3 +29,7 @@ Returns the division of the two parameters specified to the method.
 Writes the results to the console:
 
 e.g. "2 / 2 is 1"
+
+# Output
+
+![Console](Capture.PNG?raw=true "Output")
