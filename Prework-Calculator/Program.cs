@@ -7,10 +7,12 @@ namespace Prework_Calculator
     static void Main(string[] args)
     {
       //Calls up all methods in calculator with specified parameters of 2 and 4
-      Add(2, 4);
-      Subtract(2, 4);
-      Multiply(2, 4);
-      Divide(2, 4);
+      float inputOne = 2;
+      float inputTwo = 4;
+      Add(inputOne, inputTwo);
+      Subtract(inputOne, inputTwo);
+      Multiply(inputOne, inputTwo);
+      Divide(inputOne, inputTwo);
       //prevent console from automatically exiting
       Console.ReadKey();
     }
